@@ -13,21 +13,21 @@ main {
     text-align: center;
 }
 .main-container{
-    width: 800px;
+    width:800px ;
     height: 100vh;
     text-align: center;
-    margin: auto;
+    margin: 1px auto;
      font-family: Arial, sans-serif;
     background-color: rgb(78, 188, 213);
    
 }
-.container{
+.sub-container{
     margin-top: 50px;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
 }
-.all{
+.sub-container>div{
     border: 3px solid rgb(129, 119, 99);
     border-radius: 10px;
     background-color: #c1af55;
@@ -38,10 +38,8 @@ img{
     border-radius: 10px;
     margin-top:5px;
 }
-#vic-div{
-    margin: 5px auto;
-}
-.div-5{
+
+#dalhousie{
     position: relative;
     left: 270px;
 }
@@ -51,4 +49,7 @@ nav a {
     border-radius: 20px;
     background-color: blue;
     padding: 5px 20px 5px 20px;
+}
+#vic-div,a{
+    margin: 7px auto;
 }
